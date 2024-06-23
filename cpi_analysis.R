@@ -1,13 +1,3 @@
-# Installeren van pakketten (indien nog niet geïnstalleerd)
-install.packages("httr")
-install.packages("jsonlite")
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("lubridate")
-install.packages("DBI")
-install.packages("RSQLite")
-install.packages("base64enc")
-
 # Laden van pakketten
 library(httr)
 library(jsonlite)
