@@ -51,7 +51,7 @@ Volg deze stappen om het project uit te voeren:
 
 2. Installeer de benodigde R-pakketten zoals vermeld in de sectie "Tooling en Vereisten".
 3. Voer het R-script uit (cpi_analysis.R) in R of RStudio:
-  ```r
+    ```r
     Rscript cpi_analysis.R
 
 4. Bekijk de resultaten in de gegenereerde grafieken en controleer of deze correct zijn opgeslagen in de SQLite database.
