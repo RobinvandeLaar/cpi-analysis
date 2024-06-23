@@ -1,2 +1,27 @@
-# cpi-analysis
-Casus 1: R Probeer op basis van StatLine informatie cijfers te maken over de kwartaalmutatie1 van de consumentenprijs van twee interessante producten. Zet een klein overzichtelijk en opzichzelfstaand proces op in R, waarbinnen input, throughput en output duidelijk worden onderscheiden. 
+# CPI Analysis
+
+Dit project bevat een R-script voor het analyseren van Consumenten Prijs Index (CPI) data van het CBS.
+
+## Vereiste Pakketten
+
+De volgende R-pakketten zijn vereist voor dit script:
+
+- httr
+- jsonlite
+- dplyr
+- ggplot2
+- lubridate
+- DBI
+- RSQLite
+- base64enc
+
+Deze kunnen geïnstalleerd worden met de volgende commando's:
+```r
+install.packages("httr")
+install.packages("jsonlite")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("lubridate")
+install.packages("DBI")
+install.packages("RSQLite")
+install.packages("base64enc")
